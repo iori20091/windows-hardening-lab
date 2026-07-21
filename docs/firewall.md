@@ -14,9 +14,9 @@ Get-NetFirewallProfile
 
 | Perfil | Status |
 |---------|--------|
-| Domain | ✅ Habilitado |
-| Private | ✅ Habilitado |
-| Public | ✅ Habilitado |
+| Domain | Habilitado |
+| Private | Habilitado |
+| Public | Habilitado |
 
 ### Observações
 
