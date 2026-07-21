@@ -30,4 +30,4 @@ windows-hardening-lab/
 
 ## Autor
 
-Luan Verdelho
+k1ng-1337
