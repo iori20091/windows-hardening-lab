@@ -2,16 +2,20 @@
 
 ## Objetivo
 
-Este laboratório demonstra a aplicação de boas práticas de segurança no Windows 11, simulando atividades realizadas por um analista de cibersegurança.
+Laboratório prático voltado para Hardening de sistemas Windows utilizando PowerShell.
 
-## Ferramentas
+---
 
-- Windows 11
+## Tecnologias
+
 - PowerShell
-- Windows Defender
-- Windows Firewall
 - Git
 - GitHub
+- Windows Defender
+- Windows Firewall
+- Event Viewer
+
+---
 
 ## Estrutura
 
@@ -24,17 +28,27 @@ windows-hardening-lab/
 └── README.md
 ```
 
-## Status
-
-Projeto em desenvolvimento.
+---
 
 ## Etapas concluídas
 
--  Firewall
--  Política de Senhas
--  Usuários Locais
--  Auditoria
--  Windows Defender
+- Firewall
+- Política de Senhas
+- Usuários Locais
+- Auditoria
+- Windows Defender
+- Serviços
+- Windows Update
+
+---
+
+## Habilidades Desenvolvidas
+
+- Hardening
+- Documentação Técnica
+- PowerShell
+- Administração Windows
+- Auditoria
 
 ## Autor
 
