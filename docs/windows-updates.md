@@ -37,15 +37,27 @@ Exemplo de consulta:
 Get-HotFix
 ```
 
-Resultado observado:
+## Atualizações Instaladas
 
-| HotFix | Descrição | Status | Source |
-|--------|-----------|--------|
-| KBXXXXXXX | Security Update | Instalado | DESKTOP-XXXXX |
-| KBXXXXXXX | Update | Instalado | DESKTOP-XXXXX |
-| KBXXXXXXX | Security Update | Instalado | DESKTOP-XXXXX |
+Os seguintes HotFixes foram identificados durante a análise do sistema:
 
+| HotFix | Descrição | Fonte | Status |
+|---------|-----------|--------|--------|
+| KB5062553 | Security Update | DESKTOP-KAJQ5M3 |  Instalado |
+| KB5063060 | Update | DESKTOP-KAJQ5M3 |  Instalado |
+| KB5056579 | Security Update | DESKTOP-KAJQ5M3 |  Instalado |
 
+### Evidência
+
+```powershell
+PS C:\> Get-HotFix
+
+Source        Description       HotFixID    InstalledOn
+------        -----------       --------    -----------
+DESKTOP...    Security Update   KB5062553  10/07/2026
+DESKTOP...    Update            KB5063060  15/07/2026
+DESKTOP...    Security Update   KB5056579  02/06/2026
+```
 ---
 
 ## Análise
