@@ -34,6 +34,7 @@ Projeto em desenvolvimento.
 -  Política de Senhas
 -  Usuários Locais
 -  Auditoria
+-  Windows Defender
 
 ## Autor
 
