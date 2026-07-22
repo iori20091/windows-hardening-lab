@@ -1,58 +1,34 @@
-# Windows Update
+# Auditoria do Windows
 
 ## Objetivo
 
-Verificar a versão do Windows e as atualizações instaladas.
+Verificar quais categorias de auditoria estão habilitadas no Windows.
 
----
+## Ferramentas
 
-## Comandos executados
+- auditpol
+- Event Viewer
+
+## Comando
 
 ```powershell
-systeminfo
+auditpol /get /category:*
 ```
 
-```powershell
-Get-HotFix
-```
+## Eventos importantes
 
----
-
-## Informações do Sistema
-
-| Item | Resultado |
-|------|-----------|
-Nome do host:                              DESKTOP-XXXXXX
-Nome do sistema operacional:               Microsoft Windows 11 Pro
-Modelo do sistema:                         OptiPlex 3XXX
-Tipo de sistema:                           x64-based PC
-
----
-
-## Atualizações
-
-Foi identificado que o sistema possui algumas atualizações (HotFixes) instaladas.
-
-Exemplos:
-
-Source        Description      HotFixID      InstalledBy          InstalledOn
-------        -----------      --------      -----------          -----------
-DESKTOP-XX... Update           KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
-DESKTOP-XX... Security Update  KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
-DESKTOP-XX... Security Update  KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
-
----
-
-## Análise
-
-A presença de HotFixes indica que o sistema recebeu atualizações de segurança e manutenção.
-
-Em ambientes corporativos é recomendável manter todos os computadores com os patches mais recentes.
-
----
+| Event ID | Descrição |
+|----------|-----------|
+|4624|Login realizado|
+|4625|Falha de Login|
+|4634|Logoff|
+|4720|Criação de usuário|
+|4726|Remoção de usuário|
+|4732|Usuário adicionado a grupo|
+|1102|Log de Segurança apagado|
 
 ## O que aprendi
 
-- Consultar a versão do Windows.
-- Verificar HotFixes instalados.
-- Entender a importância do gerenciamento de patches.
+- Como visualizar políticas de auditoria.
+- Onde ficam os logs de segurança.
+- Como identificar eventos importantes.
