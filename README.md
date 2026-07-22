@@ -26,7 +26,14 @@ windows-hardening-lab/
 
 ## Status
 
-🚧 Projeto em desenvolvimento.
+Projeto em desenvolvimento.
+
+## Etapas concluídas
+
+-  Firewall
+-  Política de Senhas
+-  Usuários Locais
+-  Auditoria
 
 ## Autor
 
