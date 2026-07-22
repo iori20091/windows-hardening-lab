@@ -35,11 +35,11 @@ Foi identificado que o sistema possui algumas atualizações (HotFixes) instalad
 
 Exemplos:
 
-Source        Description      HotFixID      InstalledBy          InstalledOn
+| Source |      | Description |    | HotFixID |    | InstalledBy |        | InstalledOn |
 ------        -----------      --------      -----------          -----------
-DESKTOP-XX... Update           KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
-DESKTOP-XX... Security Update  KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
-DESKTOP-XX... Security Update  KBXXXXXXX     AUTORIDADE NT\SIS... XX/XX/XXXX 00:00:00
+| DESKTOP-XX... | Update |         | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
+| DESKTOP-XX... | Security Update | | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
+| DESKTOP-XX... | | Security Update | | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
 
 ---
 
