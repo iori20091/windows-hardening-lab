@@ -29,25 +29,40 @@ Tipo de sistema:                           x64-based PC
 
 ---
 
-## Atualizações
+## Atualizações Instaladas
 
-Foi identificado que o sistema possui algumas atualizações (HotFixes) instaladas.
+Exemplo de consulta:
 
-Exemplos:
+```powershell
+Get-HotFix
+```
 
-| Source |      | Description |    | HotFixID |    | InstalledBy |        | InstalledOn |
-------        -----------      --------      -----------          -----------
-| DESKTOP-XX... | Update |         | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
-| DESKTOP-XX... | Security Update | | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
-| DESKTOP-XX... | | Security Update | | KBXXXXXXX |   | AUTORIDADE NT\SIS... | | XX/XX/XXXX 00:00:00 |
+Resultado observado:
+
+| HotFix | Descrição | Status | Source |
+|--------|-----------|--------|
+| KBXXXXXXX | Security Update | Instalado | DESKTOP-XXXXX |
+| KBXXXXXXX | Update | Instalado | DESKTOP-XXXXX |
+| KBXXXXXXX | Security Update | Instalado | DESKTOP-XXXXX |
+
 
 ---
 
 ## Análise
 
-A presença de HotFixes indica que o sistema recebeu atualizações de segurança e manutenção.
+A consulta utilizando `Get-HotFix` demonstrou que o sistema possui atualizações instaladas.
 
-Em ambientes corporativos é recomendável manter todos os computadores com os patches mais recentes.
+As atualizações (HotFixes) corrigem vulnerabilidades conhecidas, aumentam a estabilidade do sistema operacional e reduzem a superfície de ataque.
+
+Em ambientes corporativos é fundamental manter as estações sempre atualizadas para minimizar riscos de exploração de falhas conhecidas.
+
+---
+
+## Conclusão
+
+O computador possui atualizações registradas pelo Windows Update.
+
+A verificação periódica das atualizações deve fazer parte das rotinas de hardening e manutenção preventiva.
 
 ---
 
@@ -56,3 +71,4 @@ Em ambientes corporativos é recomendável manter todos os computadores com os p
 - Consultar a versão do Windows.
 - Verificar HotFixes instalados.
 - Entender a importância do gerenciamento de patches.
+- Interpretar informações básicas sobre atualizações do sistema operacional.
