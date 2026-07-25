@@ -18,6 +18,14 @@ Verificar algumas regras configuradas no Windows Defender Firewall.
 Get-NetFirewallRule | Select-Object DisplayName, Enabled, Direction, Action | Select-Object -First 15
 ```
 
+## Evidência
+
+```powershell
+PS C:\> Get-NetFirewallRule |
+Select-Object DisplayName, Enabled, Direction, Action |
+Select-Object -First 15
+```
+
 ---
 
 ## Regras observadas
@@ -29,24 +37,15 @@ Get-NetFirewallRule | Select-Object DisplayName, Enabled, Direction, Action | Se
 | Remote Desktop | Não | Entrada | Permitir |
 
 
-DisplayName                                                               Enabled Direction Action
------------                                                               ------- --------- ------
-Descoberta de Rede (UPnP-Saída)                                             False  Outbound  Allow
-Uso do Spooler de Wi-Fi Direct (Saída)                                       True  Outbound  Allow
-Assistência Remota (TCP-Saída)                                              False  Outbound  Allow
-Descoberta de Rede (SSDP-Saída)                                              True  Outbound  Allow
-Descoberta de Rede (Eventos WSD-Out)                                         True  Outbound  Allow
-Gerenciamento Remoto do Log de Eventos (NP-Entrada)                         False   Inbound  Allow
-Gerenciamento Remoto de Tarefas Agendadas (RPC)                             False   Inbound  Allow
-Uso do Spooler de Wi-Fi Direct (Entrada)                                     True   Inbound  Allow
-Assistência Remota (TCP-Saída)                                               True  Outbound  Allow
-Coordenador de transações distribuídas (TCP-Saída)                          False  Outbound  Allow
-Roteamento e Acesso Remoto (L2TP-Saída)                                     False  Outbound  Allow
-Sistema de Rede Básico - Pacote Muito Grande (ICMPv6-Saída)                  True  Outbound  Allow
-Plataforma de Dispositivos Conectados (UDP-Out)                              True  Outbound  Allow
-Compartilhamento de Arquivo e Impressora (Serviço de Spooler - RPC-EPMAP)   False   Inbound  Allow
-Compartilhamento de Arquivo e Impressora (Serviço de Spooler - RPC)         False   Inbound  Allow
+## Regras observadas
 
+| Nome da Regra | Habilitada | Direção | Ação |
+|---------------|------------|----------|-------|
+| Descoberta de Rede (UPnP-Saída) |  Não | Saída | Permitir |
+| Assistência Remota (TCP-Saída) |  Não | Saída | Permitir |
+| Compartilhamento de Arquivo e Impressora (RPC) |  Não | Entrada | Permitir |
+| Plataforma de Dispositivos Conectados (UDP-Out) |  Sim | Saída | Permitir |
+| Gerenciamento Remoto do Log de Eventos |  Não | Entrada | Permitir |
 ---
 
 ## Análise
