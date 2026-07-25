@@ -108,6 +108,18 @@ As evidências do laboratório estão disponíveis na pasta `screenshots`.
 
 > Todas as imagens foram sanitizadas para preservar informações sensíveis.
 
+
+# Evidências
+
+| Evidência | Descrição |
+|------------|-----------|
+| Firewall | Configuração do Windows Defender Firewall |
+| Windows Update | Atualizações instaladas |
+| Windows Defender | Status do antivírus |
+| Network Connections | Conexões TCP e UDP |
+| Hardware | Informações do equipamento |
+| Local Users | Usuários e grupos locais |
+
 ---
 
 # Relatório Executivo
