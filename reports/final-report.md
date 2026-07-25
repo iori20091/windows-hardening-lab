@@ -65,7 +65,7 @@ As atividades contemplaram:
 
 Foi identificada uma política padrão do Windows.
 
-Recomenda-se:
+Recomenda-se: 
 
 - aumentar o comprimento mínimo;
 - habilitar histórico de senhas;
