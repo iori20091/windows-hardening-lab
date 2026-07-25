@@ -43,9 +43,9 @@ Os seguintes HotFixes foram identificados durante a análise do sistema:
 
 | HotFix | Descrição | Fonte | Status |
 |---------|-----------|--------|--------|
-| KB5062553 | Security Update | DESKTOP-KAJQ5M3 |  Instalado |
-| KB5063060 | Update | DESKTOP-KAJQ5M3 |  Instalado |
-| KB5056579 | Security Update | DESKTOP-KAJQ5M3 |  Instalado |
+| KB4000000 | Security Update | DESKTOP-LOCAL |  Instalado |
+| KB5000000 | Update | DESKTOP-LOCAL |  Instalado |
+| KB6000000 | Security Update | DESKTOP-LOCAL |  Instalado |
 
 ### Evidência
 
@@ -54,9 +54,9 @@ PS C:\> Get-HotFix
 
 Source        Description       HotFixID    InstalledOn
 ------        -----------       --------    -----------
-DESKTOP...    Security Update   KB5062553  10/07/2026
-DESKTOP...    Update            KB5063060  15/07/2026
-DESKTOP...    Security Update   KB5056579  02/06/2026
+DESKTOP...    Security Update   KB4000000  10/07/2026
+DESKTOP...    Update            KB5000000  15/07/2026
+DESKTOP...    Security Update   KB6000000  02/06/2026
 ```
 ---
 
