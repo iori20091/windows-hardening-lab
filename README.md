@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Windows Hardening Lab Banner">
+  <img src="./assets/banner.png" width="100%" alt="Windows Hardening Lab Banner">
 </p>
-
-<br>
 
 ## Windows Hardening Lab
 
