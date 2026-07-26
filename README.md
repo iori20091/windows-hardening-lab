@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Windows Hardening Lab Banner">
+</p>
+
+<br>
+
 ## Windows Hardening Lab
 
 > Projeto de portfólio desenvolvido para demonstrar conhecimentos em **Hardening Windows**, PowerShell, administração de sistemas e documentação técnica aplicada à Cibersegurança.
